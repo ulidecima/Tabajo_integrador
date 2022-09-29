@@ -1,0 +1,114 @@
+#carouselExampleSlidesOnly{
+	position: absolute;
+	top: 1;
+	left: 0;
+	z-index: -1;
+}
+
+@media screen and (max-width: 320px) {
+  div.blurCONFBSAS {
+    font-size: 10px;
+    height: 11rem;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  div.blurCONFBSAS {
+    font-size: 12px;
+    height: 13rem;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  div.blurCONFBSAS {
+    font-size: 10px;
+    height: 15rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  div.blurCONFBSAS {
+    font-size: 20px;
+    height: 27rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  div.blurCONFBSAS {
+    font-size: 15px;
+    height: 34rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  div.blurCONFBSAS {
+    font-size: 20px;
+    height: 48rem;
+  }
+}
+
+
+
+html, body{
+	overflow-x: hidden;
+}
+
+/*.textoResponsive{
+		font-size: 2vw;
+}*/
+
+.container-fluid{
+	background-color: rgba(255, 255, 255, 1.0);
+}
+
+div.BsAsOcutubre{
+	background-color: red;
+}
+
+img[src="codoacodo.png"]{
+	width: 25%;
+}
+img[src="honolulu.jpg"]{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+div.blurCONFBSAS{
+	width: 100%;
+	margin: 0%;
+	background-color: rgba(0, 0, 0, .5);
+	text-align: right;
+	display: flex;
+	align-items: center;
+}
+
+div.BsAsOctubre{
+	width: 100%;
+	margin: 2rem 0 2rem 0;
+	padding: 0rem;
+
+}
+
+div.BsAsOctubre > div{
+	width: 50%;
+}
+
+.footerClass{
+	background-color: rgba(30, 79, 109, 1.0);
+}
+
+form > div.row{
+	margin: 1rem 0rem 1rem 0rem;
+}
+
+footer{
+	padding: 2rem 0rem 2rem 0rem;
+	margin: 0rem;
+	width: 100%;
+}
+
+footer > div.row{
+	margin: 0;
+	width: 100%;
+}
